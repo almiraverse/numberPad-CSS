@@ -10,7 +10,7 @@ body {
     background-color: #d6d8d7;
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 5px 8px 4.5px #a6a6a6;
+    box-shadow: 7px 8px 4.5px #a6a6a6;
     border: 1px solid  #d1cfcf;
 }
 
@@ -24,7 +24,7 @@ body {
     border-bottom-left-radius: -50px;
     border-bottom-right-radius: -50px;
     height: 10px;
-    width: 320px;
+    width: 300px;
 
 }
 .highlight-bottom {
@@ -37,7 +37,7 @@ body {
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 100px;
     height: 10px;
-    width: 320px;
+    width: 300px;
 
 }
 
@@ -57,8 +57,8 @@ body {
 }
 .highlight-right {
     margin-top: -2px;
-    margin-right: -25px;
-    margin-left: 8px;;
+    margin-right: -20px;
+    margin-left: -4px;
     background-color: #f4f4f4;
     background-image: -webkit-linear-gradient(left, #d6d7d8, #e2e2e2, #b6b6b6);
     background-image: -moz-linear-gradient(left, #d6d7d8, #e2e2e2, #b6b6b6);
@@ -87,10 +87,13 @@ body {
     width: 300px;
     margin-top: -415px;
     margin-bottom: 1px;
+    margin-right: -50px;
 }
 
 .leftButtons {
-    width: 75%
+    width: 75%;
+    margin-left: -8px;
+
 }
 
 .rightButtons .plus{
@@ -99,6 +102,7 @@ body {
 .rightButtons .enter{
     margin-top: 9px
 }
+
 
 .leftTop,
 .leftBottom {
@@ -115,7 +119,14 @@ body {
     height: 60px;
     align-items: center;
     justify-content: center;
+    border: 2.6px solid #2b2b2b;
+    border-radius: 9px;
+    margin: 5px;
+    box-shadow: 2px 1.5px 1.5px #a6a6a6;
+
 }
+
+
 
 .zero {
     width: 135px;
@@ -126,11 +137,6 @@ body {
     height: 135px
 }
 
-.btn {
-    border: 2.5px solid #2b2b2b;
-    border-radius: 9px;
-    margin: 5px;
-}
 
 .rightButtons .btn {
     border-right: 2px solid #747675;
